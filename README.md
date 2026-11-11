@@ -1,4 +1,4 @@
-# hamla-io
+# Hamla
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,124 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-hamla-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://hamla.io/
+Hamla is an AI‑powered marketing automation platform that helps businesses across retail, services, and real‑estate engage customers via WhatsApp, email, SMS, push notifications and social ads. It offers ready‑made integrations with Shopify, WooCommerce, Calendly, Meta Ads and more, plus a custom webhook API for bespoke workflows. Hamla provides a 7‑day free trial and pricing plans for growing teams.
+
+**Areas:** Marketing · AI · Automation · E-commerce · SaaS · CustomerEngagement
+
+## Hamla on APIs.io
+
+Everything profiled for Hamla is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/hamla-io/](https://apis.io/providers/hamla-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Hamla API](https://apis.io/apis/hamla-io/hamla-api/) — Hamla provides a marketing automation API documented at the developer portal.
+- [Hamla API](https://apis.io/apis/hamla-io/hamla-io-api/) — Hamla API as documented publicly: 5 operations. Contract generated from the documentation by API Evangelist (2026-11-11); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [PostApiInstallResponse](https://apis.io/schemas/hamla-io/hamla-io-post-api-install-response/)
+- [PostApiSdkIdentifyRequest](https://apis.io/schemas/hamla-io/hamla-io-post-api-sdk-identify-request/)
+- [PostApiSdkTrackBatchRequest](https://apis.io/schemas/hamla-io/hamla-io-post-api-sdk-track-batch-request/)
+- [PostApiSdkTrackBatchResponse](https://apis.io/schemas/hamla-io/hamla-io-post-api-sdk-track-batch-response/)
+- [PostApiSdkTrackRequest](https://apis.io/schemas/hamla-io/hamla-io-post-api-sdk-track-request/)
+- [PostApiSdkTrackResponse](https://apis.io/schemas/hamla-io/hamla-io-post-api-sdk-track-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Hamla Io Context](https://apis.io/jsonld/hamla-io/hamla-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Hamla API Rules](https://apis.io/rules/hamla-io/hamla-io-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Hamla Domain Security](https://apis.io/security/hamla-io/hamla-io-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Hamla Plans Pricing](https://apis.io/plans/hamla-io/hamla-io-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://hamla.io/)
+- [Documentation](https://docs.hamla.io/)
+- [Getting started](https://www.hamla.io/en/blog/how-to-market-a-lovable-app)
+- [API reference](https://docs.hamla.io/reference/events)
+- [Pricing](https://www.hamla.io/en/pricing)
+- [Support](https://www.hamla.io/en/support)
+- [Blog](https://www.hamla.io/en/blog)
+- [Terms of service](https://www.hamla.io/en/terms)
+- [Privacy policy](https://www.hamla.io/en/privacy)
+
+## API Evangelist rating
+
+**Kin Score 55.6** — strong · rubric 0.27.0 · scored 2026-11-11
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 56.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 52.4 |
+| Access clarity | 73.2 |
+
+**Agent readiness 53.0** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | — |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/hamla-io/](https://apis.io/providers/hamla-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Hamla: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/hamla-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
